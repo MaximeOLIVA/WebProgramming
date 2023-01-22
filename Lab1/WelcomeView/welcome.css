@@ -3,20 +3,35 @@ body {
 }
 
 #login {
-    margin-bottom: 10px;
     border: solid black 2px;
     background-color: white;
-    margin-top: 100px;
-    width: 250px;
+    width: 246px;
     display: grid;
+    margin-top: 100px;
+    padding-top: 19px;
+    padding-bottom: 12px;
 }
 
 #signup {
     border: solid black 2px;
     display: inline-block;
     background-color: white;
-    width: 250px;
+    margin-top: 10px;
+    width: 246px;
     display: grid;
+}
+
+#forms {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 6px;
+}
+
+#center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
 }
 
 h2 {
@@ -26,15 +41,15 @@ h2 {
 img {
     border: solid black 2px;
     margin-top: 100px;
-    height: 400px;
-    width: 340px;
+    height: 396px;
+    width: 336px;
 }
 
 .signuptexts {
     float: right;
     margin-top: 1px;
     margin-bottom: 1px;
-    width: 120px;
+    width: 140px;
 }
 
 .logintexts {
@@ -44,5 +59,6 @@ img {
 }
 
 .button {
+    margin-top: 4px;
     width: 60px;
 }
